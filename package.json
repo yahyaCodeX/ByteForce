@@ -51,5 +51,8 @@
   ],
   "devDependencies": {
     "vitest": "^4.1.0"
+  },
+  "dependencies": {
+    "pg": "^8.23.1"
   }
 }
