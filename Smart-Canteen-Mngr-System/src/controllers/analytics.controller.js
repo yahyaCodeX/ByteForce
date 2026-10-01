@@ -60,10 +60,11 @@ export async function getDashboardStats(req, res) {
         AND o.order_status != 'CANCELLED'
       GROUP BY m.item_id, m.item_name
       ORDER BY total_qty DESC
+      LIMIT 5
     `);
     
+    stats.top_5_ordered = itemRows.map(r => ({ name: r.item_name, qty: parseInt(r.total_qty, 10) }));
     stats.most_ordered = itemRows.length > 0 ? itemRows[0].item_name : 'N/A';
-    stats.least_ordered = itemRows.length > 0 ? itemRows[itemRows.length - 1].item_name : 'N/A';
 
     // 3. Average Preparation Time (Completed orders today)
     const { rows: timeRows } = await pool.query(`

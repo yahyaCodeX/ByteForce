@@ -6,6 +6,7 @@ export default defineConfig({
     environment: 'node',
     globals: false,
     include: ['tests/**/*.test.js'],
+    fileParallelism: false,
     coverage: {
       provider: 'v8',
       reporter: ['text', 'json'],

@@ -33,16 +33,16 @@ const DEMO_USERS = [
 ];
 
 const DEMO_MENU_ITEMS = [
-  { item_name: 'Classic Burger', category: 'Burgers', price: 8.99, available_quantity: 50, preparation_time: 10, image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400', description: 'Juicy beef patty with lettuce, tomato & special sauce' },
-  { item_name: 'Cheese Pizza (Slice)', category: 'Pizza', price: 4.50, available_quantity: 40, preparation_time: 8, image: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400', description: 'Fresh mozzarella on house-made tomato sauce' },
-  { item_name: 'Chicken Wrap', category: 'Wraps', price: 7.50, available_quantity: 35, preparation_time: 7, image: 'https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=400', description: 'Grilled chicken with avocado, cucumber & yogurt sauce' },
-  { item_name: 'Veggie Bowl', category: 'Healthy', price: 9.99, available_quantity: 30, preparation_time: 6, image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400', description: 'Seasonal roasted vegetables over quinoa' },
-  { item_name: 'French Fries', category: 'Sides', price: 3.50, available_quantity: 80, preparation_time: 5, image: 'https://images.unsplash.com/photo-1576107232684-1279f390859f?w=400', description: 'Crispy golden fries with sea salt' },
-  { item_name: 'Coca-Cola (Can)', category: 'Drinks', price: 1.99, available_quantity: 100, preparation_time: 1, image: 'https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400', description: 'Classic Coca-Cola 330ml can' },
-  { item_name: 'Fresh Orange Juice', category: 'Drinks', price: 3.99, available_quantity: 25, preparation_time: 3, image: 'https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?w=400', description: 'Freshly squeezed orange juice' },
-  { item_name: 'Chocolate Brownie', category: 'Desserts', price: 3.25, available_quantity: 20, preparation_time: 2, image: 'https://images.unsplash.com/photo-1564355808539-22fda35bed7e?w=400', description: 'Rich dark chocolate brownie with nuts' },
-  { item_name: 'Pasta Carbonara', category: 'Mains', price: 10.50, available_quantity: 15, preparation_time: 12, image: 'https://images.unsplash.com/photo-1612874742237-6526221588e3?w=400', description: 'Classic carbonara with pancetta and parmesan' },
-  { item_name: 'Meal Deal: Burger + Fries + Drink', category: 'Combos', price: 12.99, available_quantity: 25, preparation_time: 12, image: 'https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?w=400', description: 'Classic burger combo — best value deal' },
+  { item_name: 'Classic Burger', category: 'Burgers', price: 450, available_quantity: 50, preparation_time: 10, image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=500&q=60', description: 'Juicy beef patty with lettuce, tomato & special sauce' },
+  { item_name: 'Cheese Pizza (Slice)', category: 'Pizza', price: 300, available_quantity: 40, preparation_time: 8, image: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=500&q=60', description: 'Fresh mozzarella on house-made tomato sauce' },
+  { item_name: 'Chicken Wrap', category: 'Wraps', price: 350, available_quantity: 35, preparation_time: 7, image: 'https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=500&q=60', description: 'Grilled chicken with avocado, cucumber & yogurt sauce' },
+  { item_name: 'Veggie Bowl', category: 'Healthy', price: 400, available_quantity: 30, preparation_time: 6, image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=500&q=60', description: 'Seasonal roasted vegetables over quinoa' },
+  { item_name: 'French Fries', category: 'Sides', price: 200, available_quantity: 80, preparation_time: 5, image: 'https://images.unsplash.com/photo-1576107232684-1279f390859f?auto=format&fit=crop&w=500&q=60', description: 'Crispy golden fries with sea salt' },
+  { item_name: 'Coca-Cola (Can)', category: 'Drinks', price: 100, available_quantity: 100, preparation_time: 1, image: 'https://images.unsplash.com/photo-1629203851122-3726ecdf080e?auto=format&fit=crop&w=500&q=60', description: 'Classic Coca-Cola 330ml can' },
+  { item_name: 'Fresh Orange Juice', category: 'Drinks', price: 250, available_quantity: 25, preparation_time: 3, image: 'https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?auto=format&fit=crop&w=500&q=60', description: 'Freshly squeezed orange juice' },
+  { item_name: 'Chocolate Brownie', category: 'Desserts', price: 150, available_quantity: 20, preparation_time: 2, image: 'https://images.unsplash.com/photo-1564355808539-22fda35bed7e?auto=format&fit=crop&w=500&q=60', description: 'Rich dark chocolate brownie with nuts' },
+  { item_name: 'Pasta Carbonara', category: 'Mains', price: 500, available_quantity: 15, preparation_time: 12, image: 'https://images.unsplash.com/photo-1612874742237-6526221588e3?auto=format&fit=crop&w=500&q=60', description: 'Classic carbonara with pancetta and parmesan' },
+  { item_name: 'Meal Deal: Burger + Fries + Drink', category: 'Combos', price: 650, available_quantity: 25, preparation_time: 12, image: 'https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&w=500&q=60', description: 'Classic burger combo — best value deal' },
 ];
 
 async function seed() {
